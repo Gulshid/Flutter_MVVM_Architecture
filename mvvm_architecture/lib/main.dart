@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
         return MultiProvider(
           providers: [
             //1,2,...... provider reference
-            ChangeNotifierProvider(create: (_) => auth_provider()),
             ChangeNotifierProvider(create: (_) => AuthViewModel()),
 
           ],

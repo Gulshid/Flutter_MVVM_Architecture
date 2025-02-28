@@ -1,4 +1,5 @@
-import 'package:flutter_dev/State_Management/Data/Response/status.dart';
+
+import 'package:mvvm_architecture/Data/Response/status.dart';
 
 class Api_Response<T> {
   Status? status;
